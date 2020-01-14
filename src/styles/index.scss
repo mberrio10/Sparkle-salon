@@ -1,13 +1,431 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Playball&display=swap');
 
-/* 
+body {
+    background-color: black;
+}
+
+.fab {
+    color: goldenrod;
+    font-size: 27px;
+    padding: 6px;
+}
+
+/*.navbar-color-on-scroll {
+    transition: all 150ms ease;
+    background-color: transparent !important;
+}
+
+.navbar-color-on-scroll.scrolled{
+    background-color: #fff !important;
+}*/
+
+.navbar {
+    background-color: rgb(61, 45, 7) !important;
+    //opacity: .3;
+    border: solid;
+    color: goldenrod;
+    border-left: none;
+    border-right: none;
+    font-family: 'Playball', cursive;
+    font-size: 1.4rem;
+}
+
+.navbar-brand {
+    margin-right: 0rem;
+    width: 50px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: goldenrod;
+    border-color: goldenrod;
+}
+
+.nav-item:hover {
+    color:goldenrod !important;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    /* color: #fff; */
+    color: gold;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: goldenrod;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgb(255, 232, 101);
+}
+
+.SalonLogo {
+    border-radius: 50%;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    font-weight: 700;
+    background-color: goldenrod;
+}
+
+.dropdown-item:hover {
+    background-color: #655f24;
+    color: #ffe865;
+}
+
+.dropdown-item {
+    color: #ffe865;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #ffe865;
+}
+
+.dropdown-menu {
+    background-color: rgb(61, 45, 7);
+}
+
+ .page-elevate {
+    margin: -60px 30px 0px;
+    border-radius: 6px;
+ }
+
+ .main {
+    background: rgb(0, 0, 0);
+    position: relative;
+    z-index: 3;
+    border-color:goldenrod;
+    border-style: solid;
+ }
+
+ .jumbotron-fluid {
+    position: relative;
+ }
+
+ .jumbotron {
+    //height: 100vh;
+    //background-position: center center;
+    //background-size: cover;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    //border: 0;
+    //display: flex;
+    //align-items: center;
+ }
+
+ .section {
+    padding: 70px 0;
+ }
+
+ .text-center {
+     text-align: center !important;
+ }
+
+ h2 {
+    font-size: 2.25rem;
+    line-height: 1.5em;
+}
+
+ h2.title {
+    margin-bottom: 1rem;
+}
+
+h2.hiring{
+    font-size: 51px;
+    font-family: 'Playball', cursive;
+    color:goldenrod;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 80px;
+    font-family: 'Playball', cursive;
+    color:goldenrod;
+}
+
+.titleEvent {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 66px;
+    font-family: 'Playball', cursive;
+    color: goldenrod;
+}
+
+h5 {
+    font-size: 33px;
+    line-height: 1.55em;
+    margin-bottom: 15px;
+    margin-top: 69px;
+    font-family: 'Playball', cursive;
+    font-weight: 300;
+    color: gold;
+}
+
+.card {
+    background-color: black;
+}
+
+.card-group .card .card-top{
+    z-index: 1;
+    transition: 0.5s;
+    background: darkgoldenrod;
+    transform: translateY(141px);
+}
+
+.card-img-top {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+.card-img-top:hover {
+    opacity: 1;
+}
+
+.card-group .card:hover .card-top{
+    opacity: 1;
+    background: none;
+    transform: translateY(0)
+}
+
+.card-group .card .card-hair{
+    background-color: black;
+    box-shadow: 0 20px 50px goldenrod;
+    transform: translateY(-141px);
+    border-style: solid;
+    border-color: gold;
+}
+
+.card-group .card:hover .card-hair{
+    transform: translateY(0)
+}
+
+.card-group .card .card-nails{
+    background-color: black;
+    box-shadow: 0 20px 50px goldenrod;
+    transform: translateY(-119px);
+    border-style: solid;
+    border-color: gold;
+}
+
+.card-group .card:hover .card-nails{
+    transform: translateY(0)
+}
+
+.card-group .card .card-events{
+    background-color: black;
+    box-shadow: 0 20px 50px goldenrod;
+    transform: translateY(-75px);
+    border-style: solid;
+    border-color: gold;
+}
+
+.card-group .card:hover .card-events{
+    transform: translateY(0)
+}
+
+.carousel {
+    position: relative;
+    padding: 20px;
+}
+
+.carousel {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 2.3rem;
+    margin: 30px 0 10px;
+    font-weight: 400;
+    line-height: 2.5;
+    color: goldenrod;
+    font-family: 'Playball', cursive;
+}
+
+h4 {
+    font-size: 2.4rem;
+    font-family: 'Playball', cursive;
+    color: goldenrod;
+}
+
+h4.description {
+    font-size: 1.8rem;
+}
+
+.hairLegend {
+    padding-bottom: 45px;
+    padding-top: 27px;
+}
+
+.nailLegend {
+    padding-bottom: 45px;
+    padding-top: 27px;
+}
+
+p {
+    font-size: 1.25rem;
+    letter-spacing: .5px;
+    color: gold;
+    line-height: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: "bicyclette",sans-serif;
+}
+
+.SalonHrs {
+    width: 100%;
+    margin-bottom: 5rem;
+    color: goldenrod;
+    font-family: "bicyclette",sans-serif;
+    line-height: 0.5;
+    font-weight: 600;
+}
+
+.TitleContact {
+    font-family: 'Playball', cursive;
+    text-align: center;
+    font-size: 54px;
+    color: goldenrod;
+    line-height: 5.2rem;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    display: block;
+}
+
+/*.card-plain {
+    background: transparent;
+    box-shadow: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    width: 100%;
+}
+
+.img-raised {
+    box-shadow: 0 5px 15px -8px gold, 0 8px 10px -5px gold;
+}
+
+.card-title {
+    margin-top: 0.75rem;
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+.card-plain .card-body {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+}
+
+.card .card-body {
+    padding: 0.9375rem 1.875rem;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+.card .card-body+.card-footer {
+    padding-top: 0rem;
+    border: 0;
+    border-radius: 6px;
+}
+
+.card-plain .card-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: transparent;
+}
+
+.card .card-footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-footer {
+    padding: 0.9375rem 1.875rem;
+}
+
+.title.text-center {
+    margin-bottom: 50px;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.5em;
+    color: gold;
+}*/
+.btn-warning {
+    color: #212529;
+    background-color: goldenrod;
+    border-color: gold;
+    font-family: 'Playball', cursive;
+    font-size: 1.5rem;
+}
+
+label { 
+    color: gold;
+    font-family: 'Playball', cursive;
+    font-size: 1.5rem;
+}
+
+form {
+    margin-bottom: 1.125rem;
+}
+
+.form-group {
+    margin-bottom: 17px;
+    position: relative;
+}
+
+.bmd-form-group {
+    padding-top: 27px;
+}
+
+.table-dark {
+    color: gold;
+    font-family: 'Playball', cursive;
+    font-size: 21px;
+    background-color: black;
+}
+
+p.footerStyle {
+    padding: 18px;
+    margin-bottom: 6px;
+    font-size: .85rem;
+}
+/*
 
     You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
+
+
+    ...Or you can use the import command to include
     other sylesheets into your bunde as well, e.j:
-    
+
     import 'relative/path/to/stylesheet.scss';
 
 */

@@ -63,3 +63,5 @@ dist/*
 !.gitkeep
 !.htaccess
 !.eslintrc
+# Local Netlify folder
+.netlify
