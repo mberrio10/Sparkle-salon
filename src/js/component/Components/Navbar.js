@@ -10,7 +10,7 @@ export class Navbar extends React.Component {
 						className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
 						id="scrollNav">
 						<div className="container">
-							<a className="navbar-brand" href="index.js">
+							<a className="navbar-brand" href="/">
 								<img
 									src="https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/IMG-20200104-WA0012.jpg?alt=media&token=df6d75c5-a65d-445d-879c-22b4b132d206"
 									className="img-fluid SalonLogo"
@@ -32,14 +32,14 @@ export class Navbar extends React.Component {
 								id="navbarNavAltMarkup">
 								{" "}
 								<div className="navbar-nav">
-									<Link
+									<a
 										className="nav-item nav-link active"
-										to="/">
+										href="/">
 										Home
 										<span className="sr-only">
 											(current)
 										</span>
-									</Link>
+									</a>
 									<li className="nav-item dropdown">
 										<a
 											className="nav-link dropdown-toggle"
@@ -54,16 +54,16 @@ export class Navbar extends React.Component {
 										<div
 											className="dropdown-menu"
 											aria-labelledby="navbarDropdownMenuLink">
-											<NavLink
+											<a
 												className="dropdown-item"
-												to="/hair">
+												href="/hair">
 												Hair
-											</NavLink>
-											<NavLink
+											</a>
+											<a
 												className="dropdown-item"
-												to="/nails">
+												href="/nails">
 												Nails
-											</NavLink>
+											</a>
 											{/*<NavLink
 												className="dropdown-item"
 												href="#">
@@ -71,16 +71,16 @@ export class Navbar extends React.Component {
                                             </NavLink>*/}
 										</div>
 									</li>
-									<NavLink
+									<a
 										className="nav-item nav-link"
-										to="/gallery">
+										href="/gallery">
 										Events
-									</NavLink>
-									<NavLink
+									</a>
+									<a
 										className="nav-item nav-link"
-										to="/contact">
+										href="/contact">
 										Contact Us
-									</NavLink>
+									</a>
 									<a
 										target="#"
 										href="https://www.facebook.com/sparklesalonboutique/">
