@@ -13,7 +13,6 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
 				<Jumbotron />
 				<div className="main page-elevate">
 					<div className="container">

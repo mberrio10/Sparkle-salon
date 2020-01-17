@@ -10,7 +10,6 @@ export class Contact extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
 				<Jumbotron />
 				<div className="main page-elevate">
 					<h2 className="TitleContact">CONTACT</h2>

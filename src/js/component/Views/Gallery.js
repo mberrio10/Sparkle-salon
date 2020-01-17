@@ -9,7 +9,6 @@ export class Gallery extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
 				<Jumbotron />
 				<div className="main page-elevate">
 					<h2 className="titleEvent">Don`t Miss Our Best Events</h2>

@@ -9,7 +9,6 @@ export class Hair extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Navbar />
 				<Jumbotron />
 				<div className="main page-elevate">
 					<h2 className="title">Hair</h2>
