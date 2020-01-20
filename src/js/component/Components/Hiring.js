@@ -22,7 +22,7 @@ export class Hiring extends React.Component {
 		fetch("/", {
 			method: "POST",
 			headers: { "Content-Type": "aplication/x-www-form-urlencoded" },
-			body: encode({ "form-name": "contact-form", ...this.state })
+			body: encode({ "form-name": "contact", ...this.state })
 		})
 			.then(() => alert("Your message has been sent"))
 			.catch(error => alert(error));
