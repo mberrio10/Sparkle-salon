@@ -1,5 +1,13 @@
 import React from "react";
 
+const encode = data => {
+	return Object.keys(data)
+		.map(
+			key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+		)
+		.join("&");
+};
+
 export class Hiring extends React.Component {
 	constructor(props) {
 		super(props);
@@ -9,6 +17,18 @@ export class Hiring extends React.Component {
 			message: ""
 		};
 	}
+
+	handleSubmit = e => {
+		fetch("/", {
+			method: "POST",
+			headers: { "Content-Type": "aplication/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact-form", ...this.state })
+		})
+			.then(() => alert("Your message has been sent"))
+			.catch(error => alert(error));
+
+		e.preventDefault();
+	};
 
 	handleNameChange = event => {
 		this.setState({
@@ -27,11 +47,6 @@ export class Hiring extends React.Component {
 			message: event.target.value
 		});
 	};
-
-	handleSubmit(event) {
-		alert("Your message has been sent");
-		event.preventDefault();
-	}
 
 	render() {
 		return (
