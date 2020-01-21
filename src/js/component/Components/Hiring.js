@@ -30,10 +30,10 @@ export class Hiring extends React.Component {
 		e.preventDefault();
 	};
 
-	handleChange = e => this.setState({ [e.target.name]: e.target.value })
+	handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
 	render() {
-        const { name, email, message } = this.state;
+		const { name, email, message } = this.state;
 		return (
 			<div className="row">
 				<div className="col-12">
@@ -72,12 +72,10 @@ export class Hiring extends React.Component {
 												</label>
 												<input
 													type="text"
-                                                    className="form-control"
-                                                    name="name"
+													className="form-control"
+													name="name"
 													value={name}
-													onChange={
-														this.handlehange
-													}
+													onChange={this.handleChange}
 												/>
 											</div>
 										</div>
@@ -88,12 +86,10 @@ export class Hiring extends React.Component {
 												</label>
 												<input
 													type="email"
-                                                    className="form-control"
-                                                    name="email"
+													className="form-control"
+													name="email"
 													value={email}
-													onChange={
-														this.handleChange
-													}
+													onChange={this.handleChange}
 												/>
 											</div>
 										</div>
@@ -107,8 +103,8 @@ export class Hiring extends React.Component {
 										<textarea
 											className="form-control"
 											rows="4"
-                                            id="exampleMessage"
-                                            name="message"
+											id="exampleMessage"
+											name="message"
 											value={message}
 											onChange={this.handleChange}
 										/>
