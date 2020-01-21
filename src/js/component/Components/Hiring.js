@@ -30,25 +30,10 @@ export class Hiring extends React.Component {
 		e.preventDefault();
 	};
 
-	handleNameChange = event => {
-		this.setState({
-			name: event.target.value
-		});
-	};
-
-	handleEmailChange = event => {
-		this.setState({
-			email: event.target.value
-		});
-	};
-
-	handleMessageChange = event => {
-		this.setState({
-			message: event.target.value
-		});
-	};
+	handleChange = e => this.setState({ [e.target.name]: e.target.value })
 
 	render() {
+        const { name, email, message } = this.state;
 		return (
 			<div className="row">
 				<div className="col-12">
@@ -87,10 +72,11 @@ export class Hiring extends React.Component {
 												</label>
 												<input
 													type="text"
-													className="form-control"
-													value={this.state.name}
+                                                    className="form-control"
+                                                    name="name"
+													value={name}
 													onChange={
-														this.handleNameChange
+														this.handlehange
 													}
 												/>
 											</div>
@@ -102,10 +88,11 @@ export class Hiring extends React.Component {
 												</label>
 												<input
 													type="email"
-													className="form-control"
-													value={this.state.email}
+                                                    className="form-control"
+                                                    name="email"
+													value={email}
 													onChange={
-														this.handleEmailChange
+														this.handleChange
 													}
 												/>
 											</div>
@@ -118,12 +105,12 @@ export class Hiring extends React.Component {
 											Your Message
 										</label>
 										<textarea
-											type="email"
 											className="form-control"
 											rows="4"
-											id="exampleMessage"
-											value={this.state.message}
-											onChange={this.handleMessageChange}
+                                            id="exampleMessage"
+                                            name="message"
+											value={message}
+											onChange={this.handleChange}
 										/>
 									</div>
 									<div className="row">
