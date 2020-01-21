@@ -64,11 +64,6 @@ export class Hiring extends React.Component {
 								<form
 									className="contact-form"
 									onSubmit={this.handleSubmit}>
-									<input
-										type="hidden"
-										name="form-name"
-										value="contact"
-									/>
 									<div className="row">
 										<div className="col-md-6">
 											<div className="form-group bmd-form-group">
