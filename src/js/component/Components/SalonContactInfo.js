@@ -35,7 +35,7 @@ export class SalonContactInfo extends React.Component {
 					</p>
 					<p>&nbsp;</p>
 					<h4>Hours</h4>
-					<table className="table table-borderless SalonHrs">
+					<table className="table table-borderless table-responsive-sm SalonHrs">
 						<tbody>
 							<tr>
 								<td>Monday</td>
