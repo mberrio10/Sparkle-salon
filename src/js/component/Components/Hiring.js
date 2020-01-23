@@ -21,8 +21,8 @@ export class Hiring extends React.Component {
 	handleSubmit = e => {
 		fetch("/", {
 			method: "POST",
-			headers: { "Content-Type": "aplication/x-www-form-urlencoded" },
-			body: encode({ "contact-form": "contact", ...this.state })
+			headers: { "Content-Type": "application/x-www-form-urlencoded" },
+			body: encode({ "form-name": "contact", ...this.state })
 		})
 			.then(() => alert("Your message has been sent"))
 			.catch(error => alert(error));
@@ -61,9 +61,7 @@ export class Hiring extends React.Component {
 										massage).
 									</span>
 								</h4>
-								<form
-									className="contact-form"
-									onSubmit={this.handleSubmit}>
+								<form onSubmit={this.handleSubmit}>
 									<div className="row">
 										<div className="col-md-6">
 											<div className="form-group bmd-form-group">
