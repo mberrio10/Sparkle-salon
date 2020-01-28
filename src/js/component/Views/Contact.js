@@ -12,7 +12,7 @@ export class Contact extends React.Component {
 			<React.Fragment>
 				<Jumbotron />
 				<div className="main page-elevate">
-					<h2 className="TitleContact">CONTACT</h2>
+					<h2 className="TitleContact">Contact</h2>
 					<CarouselContact />
 					<SalonContactInfo />
 					<div className="container-fluid">

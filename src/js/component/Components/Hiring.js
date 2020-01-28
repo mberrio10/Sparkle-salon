@@ -61,7 +61,9 @@ export class Hiring extends React.Component {
 										massage).
 									</span>
 								</h4>
-								<form onSubmit={this.handleSubmit}>
+								<form
+									onSubmit={this.handleSubmit}
+									data-netlify-recaptcha="true">
 									<div className="row">
 										<div className="col-md-6">
 											<div className="form-group bmd-form-group">
@@ -108,6 +110,7 @@ export class Hiring extends React.Component {
 										/>
 									</div>
 									<div className="row">
+										<div data-netlify-recaptcha="true" />
 										<div className="col-md-4 ml-auto mr-auto text-center">
 											<button className="btn btn-warning btn-raised">
 												Send Message
