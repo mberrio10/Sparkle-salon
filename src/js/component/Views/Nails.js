@@ -17,12 +17,12 @@ export class Nails extends React.Component {
 						<div className="row nailLegend">
 							<div className="col-md-12 ml-auto mr-auto">
 								<h4 className="text-left description">
-									Our Nail stylist are always striving with
-									the mot advance skills, so we are bring you
-									the most contemporary and complete services
-									and products to you. Sparkle Salon is
-									dedicated to providing each of our guests
-									with a gratifying experience everytime they
+									Our Nail stylists are always striving with
+									the most advanced skills, so we are bringing
+									you the most contemporary and complete
+									services and products to you. Sparkle Salon
+									is dedicated to providing each of our guests
+									with a gratifying experience every time they
 									visit.
 								</h4>
 							</div>

@@ -17,13 +17,13 @@ export class Hair extends React.Component {
 						<div className="row hairLegend">
 							<div className="col-md-12 ml-auto mr-auto">
 								<h4 className="text-left description">
-									Our creative team of profesionals are highly
-									trained and experienced, they are dedicated
-									to providing you with the latest techniques
-									and trends to suit your needs. Sparkle Salon
-									is dedicated to providing each of our guests
-									with a gratifying experience everytime they
-									visit.
+									Our creative team of professionals are
+									highly trained and experienced, they are
+									dedicated to provide you with the latest
+									techniques and trends to suit your needs.
+									Sparkle Salon is dedicated to providing each
+									of our guests with a gratifying experience
+									every time they visit.
 								</h4>
 							</div>
 						</div>

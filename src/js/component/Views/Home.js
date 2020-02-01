@@ -35,7 +35,7 @@ export class Home extends React.Component {
 					<div className="inner">
 						<p className="footerStyle">
 							© 2019 Sparkle Salon Boutique, Website created by
-							<a href="www.linkedin.com/in/mikeberrio">
+							<a href="https://www.linkedin.com/in/mikeberrio">
 								{" "}
 								Groovy Webs
 							</a>
