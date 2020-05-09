@@ -159,13 +159,14 @@ h2.hiring{
 }
 
 h5 {
-    font-size: 25px;
+    //font-size: 25px;
     line-height: 1.55em;
     //margin-bottom: 15px;
-    margin-top: 69px;
+    margin-top: 36px;
     font-family: 'Open Sans';
-    font-weight: 300;
+    //font-weight: 300;
     color: gold;
+    text-align: center;
 }
 
 .card {
@@ -197,7 +198,7 @@ h5 {
 .card-group .card .card-hair{
     background-color: black;
     box-shadow: 0 20px 50px goldenrod;
-    transform: translateY(-141px);
+    transform: translateY(-143px);
     border-style: solid;
     border-color: gold;
 }
@@ -209,7 +210,7 @@ h5 {
 .card-group .card .card-nails{
     background-color: black;
     box-shadow: 0 20px 50px goldenrod;
-    transform: translateY(-119px);
+    transform: translateY(-121px);
     border-style: solid;
     border-color: gold;
 }
@@ -295,6 +296,15 @@ p {
     line-height: 5.2rem;
     margin-top: 36px;
     margin-bottom: 36px;
+    display: block;
+}
+.TitleHome {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    font-size: 54px;
+    color: goldenrod;
+    line-height: 5.2rem;
+    margin-top: 36px;
     display: block;
 }
 

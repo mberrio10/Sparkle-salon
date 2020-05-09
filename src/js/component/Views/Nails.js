@@ -16,7 +16,7 @@ export class Nails extends React.Component {
 					<div className="container text-center">
 						<div className="row nailLegend">
 							<div className="col-md-12 ml-auto mr-auto">
-								<h4 className="text-left description">
+								<h4 className="description">
 									Our Nail stylists are always striving with
 									the most advanced skills, so we are bringing
 									you the most contemporary and complete

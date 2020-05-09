@@ -16,7 +16,7 @@ export class Hair extends React.Component {
 					<div className="container text-center">
 						<div className="row hairLegend">
 							<div className="col-md-12 ml-auto mr-auto">
-								<h4 className="text-left description">
+								<h4 className="description">
 									Our creative team of professionals are
 									highly trained and experienced, they are
 									dedicated to provide you with the latest

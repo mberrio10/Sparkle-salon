@@ -5,7 +5,8 @@ export class DescriptionSection extends React.Component {
 		return (
 			<div className="row justify-content-md-center">
 				<div className="col-md-auto">
-					<h5 className="description">
+					<h2 className="TitleHome">Our Salon</h2>
+					<h5 className="description lead">
 						Located in Coral Springs, Sparkle Beauty Salon is
 						committed to providing total beauty and satisfaction
 						while creating a unique portrait of style for each
