@@ -1,8 +1,28 @@
 @import "~bootstrap/scss/bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Lato|Open+Sans|Ubuntu|Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700;900&family=GFS+Didot&display=swap');
+
+// ---Fonts To Remember---
+// Abril Fatface
+// 'Vollkorn', serif
+// Ubuntu
+// Lato
+
+// light gold: #F7EF8A
+// medium gold: #D2AC47
+// dark green: #E0AA3E
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+    font-family: 'GFS Didot', serif;
+    font-size: 16px;
+    line-height: 1.7;
     background-color: black;
+    color: #D4AF37;
 }
 
 .fab {
@@ -10,15 +30,6 @@ body {
     font-size: 27px;
     padding: 6px;
 }
-
-/*.navbar-color-on-scroll {
-    transition: all 150ms ease;
-    background-color: transparent !important;
-}
-
-.navbar-color-on-scroll.scrolled{
-    background-color: #fff !important;
-}*/
 
 .navbar {
     background-color: rgb(61, 45, 7) !important;
