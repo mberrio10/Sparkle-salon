@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Jumbotron } from "../Components/Jumbotron";
+import { Header } from "../Components/Header";
 import { DescriptionSection } from "../Components/DescriptionSection";
 import { ServiceCard } from "../Components/ServiceCard";
 import { Link, NavLink } from "react-router-dom";
@@ -13,24 +13,24 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Jumbotron />
-				<div className="main page-elevate">
-					<div className="container">
-						<DescriptionSection />
+				<header className="header">
+					<Header />
+				</header>
+				<section className="description">
+					<DescriptionSection />
+				</section>
+				<section className="Service">
+					<ServiceCard />
+					<div className="row d-block">
+						<Link to="/contact">
+							<img
+								src="https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20Banner.png?alt=media&token=970cef15-10c4-49c6-bfb7-42efa87f2e78"
+								className="mx-auto d-block img-fluid"
+								alt="Responsive image"
+							/>
+						</Link>
 					</div>
-					<div className="container Service">
-						<ServiceCard />
-						<div className="row d-block">
-							<Link to="/contact">
-								<img
-									src="https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20Banner.png?alt=media&token=970cef15-10c4-49c6-bfb7-42efa87f2e78"
-									className="mx-auto d-block img-fluid"
-									alt="Responsive image"
-								/>
-							</Link>
-						</div>
-					</div>
-				</div>
+				</section>
 				<footer className="mastfoot mt-auto text-center">
 					<div className="inner">
 						<p className="footerStyle">

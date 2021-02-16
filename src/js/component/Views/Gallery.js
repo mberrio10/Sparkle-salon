@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Jumbotron } from "../Components/Jumbotron";
+import { Header } from "../Components/Header";
 import { CarouselEvents } from "../Components/CarouselEvents";
 import { ServiceCardEvents } from "../Components/ServiceCardEvents";
 import { Link, NavLink } from "react-router-dom";
@@ -9,7 +9,7 @@ export class Gallery extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Jumbotron />
+				<Header />
 				<div className="main page-elevate">
 					<h2 className="titleEvent">Don`t Miss Our Best Events</h2>
 					<CarouselEvents />

@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Jumbotron } from "../Components/Jumbotron";
+import { Header } from "../Components/Header";
 import { CarouselHair } from "../Components/CarouselHair";
 import { MenuHairPrices } from "../Components/MenuHairPrices";
 import { Link, NavLink } from "react-router-dom";
@@ -9,7 +9,7 @@ export class Hair extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Jumbotron />
+				<Header />
 				<div className="main page-elevate">
 					<h2 className="title">Hair</h2>
 					<CarouselHair />

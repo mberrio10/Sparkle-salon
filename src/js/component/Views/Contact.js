@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Jumbotron } from "../Components/Jumbotron";
+import { Header } from "../Components/Header";
 import { CarouselContact } from "../Components/CarouselContact";
 import { SalonContactInfo } from "../Components/SalonContactInfo";
 import { Hiring } from "../Components/Hiring";
@@ -10,7 +10,7 @@ export class Contact extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Jumbotron />
+				<Header />
 				<div className="main page-elevate">
 					<h2 className="TitleContact">Contact</h2>
 					<CarouselContact />

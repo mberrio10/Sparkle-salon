@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Jumbotron } from "../Components/Jumbotron";
+import { Header } from "../Components/Header";
 import { CarouselNails } from "../Components/CarouselNails";
 import { MenuNailsPrices } from "../Components/MenuNailsPrices";
 import { Link, NavLink } from "react-router-dom";
@@ -9,7 +9,7 @@ export class Nails extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Jumbotron />
+				<Header />
 				<div className="main page-elevate">
 					<h2 className="title">Nails</h2>
 					<CarouselNails />
