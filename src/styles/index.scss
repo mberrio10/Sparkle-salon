@@ -26,6 +26,13 @@ body {
     padding: 30px;
 }
 
+ .header {
+     height: 95vh;
+     background-image: url('https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20banner%20(2).png?alt=media&token=795a8297-99f6-4576-994d-4893c9353166');
+     background-size: cover;
+     background-position: top;
+ }
+
 .container-fluid {
     padding: 7% 15%;
 }
@@ -38,13 +45,9 @@ body {
 
 .navbar {
     background-color: rgb(61, 45, 7) !important;
-    //opacity: .3;
-    border: solid;
-    color: goldenrod;
-    border-left: none;
-    border-right: none;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 18px;
+    padding: 2rem 2rem 4.5rem;
+    color: goldenrod;  
+    font-weight: bold;
 }
 
 .navbar-brand {
@@ -100,68 +103,6 @@ body {
 
 .dropdown-menu {
     background-color: rgb(61, 45, 7);
-}
-
- .page-elevate {
-    margin: -60px 30px 0px;
-    border-radius: 6px;
- }
-
- .header {
-     height: 95vh;
-     background-image: url('https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20banner%20(2).png?alt=media&token=795a8297-99f6-4576-994d-4893c9353166');
-     background-size: cover;
-     background-position: top;
- }
-
- .text-center {
-     text-align: center !important;
- }
-
- h2 {
-    font-size: 2.25rem;
-    line-height: 1.5em;
-}
-
- h2.title {
-    margin-bottom: 1rem;
-}
-
-h2.hiring{
-    font-size: 45px;
-    font-family: 'Vollkorn', Semi-Bold;
-    color:goldenrod;
-}
-
-.title {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 80px;
-    font-family: 'Abril Fatface';
-    color:goldenrod;
-}
-
-.titleEvent {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-weight: 500;
-    font-size: 42px;
-    font-family: 'Abril Fatface';
-    color: goldenrod;
-}
-
-h5 {
-    //font-size: 25px;
-    line-height: 1.55em;
-    //margin-bottom: 15px;
-    margin-top: 36px;
-    font-family: 'Open Sans';
-    //font-weight: 300;
-    color: gold;
-    text-align: center;
 }
 
 .card {

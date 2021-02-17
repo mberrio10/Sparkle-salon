@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { Header } from "../Components/Header";
 import { DescriptionSection } from "../Components/DescriptionSection";
 import { ServiceCard } from "../Components/ServiceCard";
 import { Link, NavLink } from "react-router-dom";
@@ -13,9 +12,9 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<header className="header">
-					<Header />
-				</header>
+				<section>
+					<Navbar />
+				</section>
 				<section className="description">
 					<DescriptionSection />
 				</section>
