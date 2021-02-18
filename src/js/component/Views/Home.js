@@ -18,7 +18,7 @@ export class Home extends React.Component {
 				<section className="description">
 					<DescriptionSection />
 				</section>
-				<section className="Service">
+				<section className="service">
 					<ServiceCard />
 					<div className="row d-block">
 						<Link to="/contact">

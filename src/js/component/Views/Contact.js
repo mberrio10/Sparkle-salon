@@ -10,7 +10,7 @@ export class Contact extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<Header />
+				<Navbar />
 				<div className="main page-elevate">
 					<h2 className="TitleContact">Contact</h2>
 					<CarouselContact />

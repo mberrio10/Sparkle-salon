@@ -68,12 +68,12 @@ export class Navbar extends React.Component {
 							<a
 								target="#"
 								href="https://www.facebook.com/sparklesalonboutique/">
-								<i className="fab fa-facebook" />
+								<i className="social-icon fab fa-facebook" />
 							</a>
 							<a
 								target="#"
 								href="https://www.instagram.com/sparklesalonboutique/">
-								<i className="fab fa-instagram" />
+								<i className="social-icon fab fa-instagram" />
 							</a>
 						</div>
 					</div>

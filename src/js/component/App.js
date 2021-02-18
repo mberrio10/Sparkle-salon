@@ -16,7 +16,6 @@ export class App extends React.Component {
 		return (
 			<BrowserRouter>
 				<div className="App">
-					{/* <Navbar /> */}
 					<Route exact path="/" component={Home} />
 					<Route path="/gallery" component={Gallery} />
 					<Route path="/hair" component={Hair} />

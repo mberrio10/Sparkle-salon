@@ -6,6 +6,7 @@
 // 'Vollkorn', serif
 // Ubuntu
 // Lato
+// Great Vibes = banner font
 
 // light gold: #F7EF8A
 // medium gold: #D2AC47
@@ -37,55 +38,42 @@ body {
     padding: 7% 15%;
 }
 
-.fab {
-    color: goldenrod;
+.social-icon {
+    color: #D4AF37;
     font-size: 27px;
-    padding: 6px;
+    padding: 6px 5px 11px;
 }
 
 .navbar {
-    background-color: rgb(61, 45, 7) !important;
-    padding: 2rem 2rem 4.5rem;
-    color: goldenrod;  
+    // background-color: rgb(61, 45, 7);
+    padding: 2rem 2rem;  
     font-weight: bold;
 }
 
-.navbar-brand {
-    margin-right: 0rem;
+.navbar-brand .SalonLogo {
     width: 50px;
-}
-
-.navbar-dark .navbar-toggler {
-    color: goldenrod;
-    border-color: goldenrod;
-}
-
-.nav-item:hover {
-    color:goldenrod !important;
-}
-
-.navbar-dark .navbar-nav .nav-link.active {
-    /* color: #fff; */
-    color: gold;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: goldenrod;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-    /* color: rgba(255, 255, 255, 0.5); */
-    color: rgb(255, 232, 101);
-}
-
-.SalonLogo {
     border-radius: 50%;
 }
 
-.dropdown-item.active, .dropdown-item:active {
-    color: black;
-    font-weight: 700;
-    background-color: goldenrod;
+// .navbar-dark .navbar-toggler {
+//     color: goldenrod;
+//     border-color: goldenrod;
+// }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #D4AF37;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #F7EF8A;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E0AA3E;
+}
+
+.dropdown-item {
+    color: #D4AF37;
 }
 
 .dropdown-item:hover {
@@ -93,17 +81,23 @@ body {
     color: #ffe865;
 }
 
-.dropdown-item {
-    color: #ffe865;
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    font-weight: 700;
+    background-color: #F7EF8A;
 }
 
 .navbar-dark .navbar-nav .show > .nav-link {
     color: #ffe865;
 }
 
-.dropdown-menu {
-    background-color: rgb(61, 45, 7);
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #F7EF8A;
 }
+
+// .dropdown-menu {
+//     background-color: rgb(61, 45, 7);
+// }
 
 .card {
     background-color: black;
@@ -177,23 +171,12 @@ body {
 }
 
 h3 {
-    font-size: 2.3rem;
     margin: 30px 0 10px;
     font-weight: 400;
     line-height: 2.5;
-    color: goldenrod;
     font-family: 'Vollkorn', serif;
 }
 
-h4 {
-    font-size: 2.4rem;
-    font-family: 'Open Sans';
-    color: goldenrod;
-}
-
-h4.description {
-    font-size: 21px;
-}
 
 .hairLegend {
     padding-bottom: 45px;
@@ -206,39 +189,28 @@ h4.description {
 }
 
 p {
-    font-size: 18px;
     letter-spacing: .5px;
-    color: gold;
     line-height: 1.4rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font-family: 'Ubuntu', sans-serif;
 }
 
 .SalonHrs {
     width: 100%;
     margin-bottom: 5rem;
-    color: goldenrod;
     line-height: 0.5;
     font-weight: 600;
-    font-family: 'Ubuntu', sans-serif
 }
 
 .TitleContact {
-    font-family: 'Abril Fatface';
     text-align: center;
-    font-size: 54px;
-    color: goldenrod;
     line-height: 5.2rem;
     margin-top: 36px;
     margin-bottom: 36px;
     display: block;
 }
 .TitleHome {
-    font-family: 'Abril Fatface';
     text-align: center;
-    font-size: 54px;
-    color: goldenrod;
     line-height: 5.2rem;
     margin-top: 36px;
     display: block;
@@ -334,7 +306,6 @@ h4 {
 }
 
 label { 
-    color: gold;
     font-family: 'Vollkorn', serif;
     font-size: 1.5rem;
 }
@@ -353,7 +324,6 @@ form {
 }
 
 .table-dark {
-    color: gold;
     font-family: 'Lato';
     font-size: 15px;
     background-color: black;
