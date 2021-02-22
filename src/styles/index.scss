@@ -10,7 +10,7 @@
 
 // light gold: #F7EF8A
 // medium gold: #D2AC47
-// dark green: #E0AA3E
+// dark gold: #E0AA3E
 
 * {
     margin: 0;
@@ -53,23 +53,37 @@ body {
 .navbar-brand .SalonLogo {
     width: 50px;
     border-radius: 50%;
+    margin-left: 1rem;
 }
 
-// .navbar-dark .navbar-toggler {
-//     color: goldenrod;
-//     border-color: goldenrod;
-// }
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.navbar-dark .navbar-toggler {
+    color: goldenrod;
+    border-color: goldenrod;
+}
 
 .navbar-dark .navbar-nav .nav-link {
     color: #D4AF37;
 }
 
-.navbar-dark .navbar-nav .nav-link.active {
-    color: #F7EF8A;
-}
-
 .navbar-dark .navbar-nav .nav-link:hover {
     color: #E0AA3E;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #ffe865;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #F7EF8A;
 }
 
 .dropdown-item {
@@ -87,17 +101,10 @@ body {
     background-color: #F7EF8A;
 }
 
-.navbar-dark .navbar-nav .show > .nav-link {
-    color: #ffe865;
-}
 
-.navbar-dark .navbar-nav .nav-link:focus {
-    color: #F7EF8A;
+.dropdown-menu {
+    background-color: #19191c;
 }
-
-// .dropdown-menu {
-//     background-color: rgb(61, 45, 7);
-// }
 
 .card {
     background-color: black;

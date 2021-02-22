@@ -10,20 +10,18 @@ export class Gallery extends React.Component {
 		return (
 			<React.Fragment>
 				<Header />
-				<div className="main page-elevate">
-					<h2 className="titleEvent">Don`t Miss Our Best Events</h2>
-					<CarouselEvents />
-					<ServiceCardEvents />
-					<div className="container-fluid">
-						<div className="row d-block">
-							<Link to="/contact">
-								<img
-									src="https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20Banner.png?alt=media&token=970cef15-10c4-49c6-bfb7-42efa87f2e78"
-									className="mx-auto d-block img-fluid"
-									alt="Responsive image"
-								/>
-							</Link>
-						</div>
+				<h2 className="titleEvent">Don`t Miss Our Best Events</h2>
+				<CarouselEvents />
+				<ServiceCardEvents />
+				<div className="container-fluid">
+					<div className="row d-block">
+						<Link to="/contact">
+							<img
+								src="https://firebasestorage.googleapis.com/v0/b/salonphotos-ce4a2.appspot.com/o/Sparkle%20Banner.png?alt=media&token=970cef15-10c4-49c6-bfb7-42efa87f2e78"
+								className="mx-auto d-block img-fluid"
+								alt="Responsive image"
+							/>
+						</Link>
 					</div>
 				</div>
 				<footer className="mastfoot mt-auto text-center">

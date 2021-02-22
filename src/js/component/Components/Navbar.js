@@ -17,6 +17,65 @@ export class Navbar extends React.Component {
 						className="navbar-toggler"
 						type="button"
 						data-toggle="collapse"
+						data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span className="navbar-toggler-icon" />
+					</button>
+
+					<div
+						className="collapse navbar-collapse"
+						id="navbarSupportedContent">
+						<ul className="navbar-nav ml-auto">
+							<li className="nav-item">
+								<a className="nav-link" href="/">
+									Home
+								</a>
+							</li>
+							<li className="nav-item dropdown">
+								<a
+									className="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-toggle="dropdown"
+									aria-haspopup="true"
+									aria-expanded="false">
+									Services
+								</a>
+								<div
+									className="dropdown-menu"
+									aria-labelledby="navbarDropdown">
+									<a className="dropdown-item" href="/hair">
+										Hair
+									</a>
+									<a className="dropdown-item" href="/nails">
+										Nails
+									</a>
+								</div>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="/gallery">
+									Events
+								</a>
+							</li>
+							<li className="nav-item">
+								<a className="nav-link" href="/contact">
+									Contact
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				{/* <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
+					<a className="navbar-brand" href="/">
+						
+					</a>
+					<button
+						className="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
 						data-target="#navbarNavAltMarkup"
 						aria-controls="navbarNavAltMarkup"
 						aria-expanded="false"
@@ -57,7 +116,7 @@ export class Navbar extends React.Component {
                                         href="#">
                                         Spa
                                     </NavLink>*/}
-								</div>
+				{/* </div>
 							</li>
 							<a className="nav-item nav-link" href="/gallery">
 								Events
@@ -77,7 +136,7 @@ export class Navbar extends React.Component {
 							</a>
 						</div>
 					</div>
-				</nav>
+				</nav> */}
 			</header>
 		);
 	}
