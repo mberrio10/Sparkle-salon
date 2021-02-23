@@ -50,7 +50,7 @@ body {
     font-weight: bold;
 }
 
-.navbar-brand .SalonLogo {
+.SalonLogo {
     width: 50px;
     border-radius: 50%;
     margin-left: 1rem;
@@ -63,11 +63,6 @@ body {
 .nav-link {
   font-size: 1.2rem;
   font-weight: 300;
-}
-
-.navbar-dark .navbar-toggler {
-    color: goldenrod;
-    border-color: goldenrod;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -106,241 +101,11 @@ body {
     background-color: #19191c;
 }
 
-.card {
-    background-color: black;
+.navbar-dark .navbar-toggler {
+    color: goldenrod;
+    border-color: goldenrod;
 }
 
-.card-group .card .card-top{
-    z-index: 1;
-    transition: 0.5s;
-    background: darkgoldenrod;
-    transform: translateY(141px);
-}
-
-.card-img-top {
-    opacity: 0.2;
-    transition: 0.5s;
-}
-
-.card-img-top:hover {
-    opacity: 1;
-}
-
-.card-group .card:hover .card-top{
-    opacity: 1;
-    background: none;
-    transform: translateY(0)
-}
-
-.card-group .card .card-hair{
-    background-color: black;
-    box-shadow: 0 20px 50px goldenrod;
-    transform: translateY(-143px);
-    border-style: solid;
-    border-color: gold;
-}
-
-.card-group .card:hover .card-hair{
-    transform: translateY(0)
-}
-
-.card-group .card .card-nails{
-    background-color: black;
-    box-shadow: 0 20px 50px goldenrod;
-    transform: translateY(-121px);
-    border-style: solid;
-    border-color: gold;
-}
-
-.card-group .card:hover .card-nails{
-    transform: translateY(0)
-}
-
-.card-group .card .card-events{
-    background-color: black;
-    box-shadow: 0 20px 50px goldenrod;
-    transform: translateY(-75px);
-    border-style: solid;
-    border-color: gold;
-}
-
-.card-group .card:hover .card-events{
-    transform: translateY(0)
-}
-
-.carousel {
-    position: relative;
-    padding: 20px;
-}
-
-.carousel {
-    padding: 20px;
-}
-
-h3 {
-    margin: 30px 0 10px;
-    font-weight: 400;
-    line-height: 2.5;
-    font-family: 'Vollkorn', serif;
-}
-
-
-.hairLegend {
-    padding-bottom: 45px;
-    padding-top: 27px;
-}
-
-.nailLegend {
-    padding-bottom: 45px;
-    padding-top: 27px;
-}
-
-p {
-    letter-spacing: .5px;
-    line-height: 1.4rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-
-.SalonHrs {
-    width: 100%;
-    margin-bottom: 5rem;
-    line-height: 0.5;
-    font-weight: 600;
-}
-
-.TitleContact {
-    text-align: center;
-    line-height: 5.2rem;
-    margin-top: 36px;
-    margin-bottom: 36px;
-    display: block;
-}
-.TitleHome {
-    text-align: center;
-    line-height: 5.2rem;
-    margin-top: 36px;
-    display: block;
-}
-
-/*.card-plain {
-    background: transparent;
-    box-shadow: none;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    border: 0;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border-radius: 6px;
-    color: rgba(0, 0, 0, 0.87);
-    width: 100%;
-}
-
-.img-raised {
-    box-shadow: 0 5px 15px -8px gold, 0 8px 10px -5px gold;
-}
-
-.card-title {
-    margin-top: 0.75rem;
-    font-weight: 700;
-    font-family: "Roboto Slab", "Times New Roman", serif;
-}
-
-.card-plain .card-body {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.card-body {
-    flex: 1 1 auto;
-}
-
-.card .card-body {
-    padding: 0.9375rem 1.875rem;
-}
-
-p {
-    font-size: 14px;
-    margin: 0 0 10px;
-}
-
-.card .card-body+.card-footer {
-    padding-top: 0rem;
-    border: 0;
-    border-radius: 6px;
-}
-
-.card-plain .card-footer {
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: transparent;
-}
-
-.card .card-footer {
-    display: flex;
-    align-items: center;
-}
-
-.card-footer {
-    padding: 0.9375rem 1.875rem;
-}
-
-.title.text-center {
-    margin-bottom: 50px;
-}
-
-h4 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    font-weight: 300;
-    font-size: 1.125rem;
-    line-height: 1.5em;
-    color: gold;
-}*/
-.btn-warning {
-    color: #212529;
-    background-color: goldenrod;
-    border-color: gold;
-    font-family: 'Vollkorn', serif;
-    font-size: 1.5rem;
-}
-
-label { 
-    font-family: 'Vollkorn', serif;
-    font-size: 1.5rem;
-}
-
-form {
-    margin-bottom: 1.125rem;
-}
-
-.form-group {
-    margin-bottom: 17px;
-    position: relative;
-}
-
-.bmd-form-group {
-    padding-top: 27px;
-}
-
-.table-dark {
-    font-family: 'Lato';
-    font-size: 15px;
-    background-color: black;
-}
-
-p.footerStyle {
-    padding: 18px;
-    margin-bottom: 6px;
-    font-size: .85rem;
-}
 /*
 
     You can write your own styles here...

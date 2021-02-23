@@ -68,75 +68,22 @@ export class Navbar extends React.Component {
 						</ul>
 					</div>
 				</nav>
-				{/* <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
-					<a className="navbar-brand" href="/">
-						
-					</a>
-					<button
-						className="navbar-toggler"
-						type="button"
-						data-toggle="collapse"
-						data-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup"
-						aria-expanded="false"
-						aria-label="Toggle navigation">
-						<span className="navbar-toggler-icon" />
-					</button>
-					<div
-						className="collapse navbar-collapse justify-content-end"
-						id="navbarNavAltMarkup">
-						{" "}
-						<div className="navbar-nav ms-auto">
-							<a className="nav-item nav-link active" href="/">
-								Home
-								<span className="sr-only">(current)</span>
-							</a>
-							<li className="nav-item dropdown">
-								<a
-									className="nav-link dropdown-toggle"
-									href="#"
-									id="navbarDropdownMenuLink"
-									role="button"
-									data-toggle="dropdown"
-									aria-haspopup="true"
-									aria-expanded="false">
-									Services
-								</a>
-								<div
-									className="dropdown-menu"
-									aria-labelledby="navbarDropdownMenuLink">
-									<a className="dropdown-item" href="/hair">
-										Hair
-									</a>
-									<a className="dropdown-item" href="/nails">
-										Nails
-									</a>
-									{/*<NavLink
-                                        className="dropdown-item"
-                                        href="#">
-                                        Spa
-                                    </NavLink>*/}
-				{/* </div>
-							</li>
-							<a className="nav-item nav-link" href="/gallery">
-								Events
-							</a>
-							<a className="nav-item nav-link" href="/contact">
-								Contact Us
-							</a>
-							<a
-								target="#"
-								href="https://www.facebook.com/sparklesalonboutique/">
-								<i className="social-icon fab fa-facebook" />
-							</a>
-							<a
-								target="#"
-								href="https://www.instagram.com/sparklesalonboutique/">
-								<i className="social-icon fab fa-instagram" />
-							</a>
-						</div>
-					</div>
-				</nav> */}
+				{/*<NavLink
+                        className="dropdown-item"
+                        href="#">
+                        Spa
+                    </NavLink>*/}
+
+				{/* <a
+                        target="#"
+                        href="https://www.facebook.com/sparklesalonboutique/">
+                        <i className="social-icon fab fa-facebook" />
+                    </a>
+                    <a
+                        target="#"
+                        href="https://www.instagram.com/sparklesalonboutique/">
+                        <i className="social-icon fab fa-instagram" />
+                    </a> */}
 			</header>
 		);
 	}
