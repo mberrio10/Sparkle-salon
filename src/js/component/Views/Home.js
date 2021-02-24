@@ -12,9 +12,29 @@ export class Home extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<section>
+				<header className="header">
 					<Navbar />
-				</section>
+					<div className="text-box">
+						<h1 className="heading-primary">
+							<span className="heading-primary-main">
+								Sparkle
+							</span>
+							<span className="heading-primary-Sub">
+								Salon{" "}
+								<a
+									target="#"
+									href="https://www.facebook.com/sparklesalonboutique/">
+									<i className="social-icon fab fa-facebook" />
+								</a>
+								<a
+									target="#"
+									href="https://www.instagram.com/sparklesalonboutique/">
+									<i className="social-icon fab fa-instagram" />
+								</a>
+							</span>
+						</h1>
+					</div>
+				</header>
 				<section className="description">
 					<DescriptionSection />
 				</section>
