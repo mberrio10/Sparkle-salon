@@ -1,12 +1,14 @@
 import React from "react";
 
-export class DescriptionSection extends React.Component {
+export class AboutSection extends React.Component {
 	render() {
 		return (
 			<div className="container-fluid">
-				<div className="row justify-content-md-center">
-					<div className="col-md-auto">
-						<h2 className="TitleHome">Our Salon</h2>
+				<div className="u-text-center u-margin-bottom-big">
+					<h2 className="heading-secondary">Our Salon</h2>
+				</div>
+				<div className="row">
+					<div className="col-lg-6 col-md-6 col-sm-12">
 						<h5 className="description lead">
 							Located in Coral Springs, Sparkle Beauty Salon is
 							committed to providing total beauty and satisfaction

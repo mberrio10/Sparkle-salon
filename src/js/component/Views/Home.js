@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "../Components/Navbar";
-import { DescriptionSection } from "../Components/DescriptionSection";
+import { AboutSection } from "../Components/AboutSection";
 import { ServiceCard } from "../Components/ServiceCard";
 import { Link, NavLink } from "react-router-dom";
 //import { TeamSection } from "../Components/TeamSection";
@@ -35,8 +35,8 @@ export class Home extends React.Component {
 						</h1>
 					</div>
 				</header>
-				<section className="description">
-					<DescriptionSection />
+				<section className="about-section">
+					<AboutSection />
 				</section>
 				<section className="service">
 					<ServiceCard />
