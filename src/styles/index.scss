@@ -54,7 +54,7 @@ body {
 
 .navbar {
     // background-color: rgb(61, 45, 7);
-    padding: 2rem 2rem;  
+    padding: 3rem 3rem;  
     font-weight: bold;
 }
 
@@ -141,7 +141,6 @@ display: block;
 
 .about-section {
     background-color: #19191c;
-    padding: 25rem 0;
 }
 
 .heading-secondary {
@@ -154,6 +153,59 @@ display: block;
     color: transparent;
     letter-spacing: 2px;
 }
+
+.paragraph {
+  font-size: 1.2rem; 
+}
+.paragraph:not(:last-child) {
+    margin-bottom: 3rem; 
+}
+
+.btn-text:link, .btn-text:visited {
+  font-size: 1.2rem;
+  position: relative;
+  color: #D2AC47;
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #D2AC47;
+  background-image: linear-gradient(90deg, transparent 0%, transparent 50%, #F7EF8A 50%);
+  background-size: 200%;
+  padding: 6px;
+  transition: all 0.2s; 
+}
+
+.btn-text:hover {
+  background-position: 200%;
+  background-color: #D2AC47;
+  color: #19191c;
+  box-shadow: 0 1rem 2rem rgba(224, 170, 62, 0.15);
+  transform: translateY(-2px); 
+}
+
+// // .btn-text::before {
+// //     content: '';
+// //     position: absolute;
+// //     top: 0;
+// //     left: 0;
+// //     width: 50%;
+// //     height: 100%;
+// //     background: #E0AA3E;
+// // }
+
+// // .btn-text::after {
+// //     content: '';
+// //     position: absolute;
+// //     top: 0;
+// //     left: -100%;
+// //     width: 100%;
+// //     height: 100%;
+// //     background: linear-gradient(90deg,transparent, #F7EF8A, transparent);
+// //     transition: .5s;
+// // }
+
+// .btn-text:hover, .btn-text:active {
+    
+// }
 /*
 
     You can write your own styles here...
